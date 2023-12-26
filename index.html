@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav>
+        <div class="icon" id="icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div id="titre">
+            <img src="image/titre.png" alt="titre">
+        </div>
+        <ul class="menu" id="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="formulaire.html">Formulaire</a></li>
+            <li><h2 id="mode">Dark Mode</h2></li>
+        </ul>
+    </nav>
+    <div id="reste">
+        <header>
+            <swiper-container class="mySwiper" navigation="true" pagination="true" keyboard="true" mousewheel="true"
+            css-mode="true">
+                <swiper-slide>
+                    <h2>Sur le Bateau</h2>
+                    <div class="imag">
+                    <img src="image/boat.jpg" alt="boat">
+                    </div>
+                    <p>L'une des images ou ont peux voir Les personnages Dave et Cobra sur le bateau</p>
+                </swiper-slide>
+                <swiper-slide>
+                    <h2>Le Restaurant</h2>
+                    <div class="imag">
+                    <img src="image/restaurant.jpg" alt="restaurant">
+                    </div>
+                    <p>Le Restaurant qui est la source principal de revenu</p>
+                </swiper-slide>
+                <swiper-slide>
+                    <h2>Une Image du Lac</h2>
+                    <div class="imag">
+                    <img src="image/sea.png" alt="sea">
+                    </div>
+                    <p>On ne change pas de Lac mais on descend pour decouvrir de nouveau poisson</p>
+                </swiper-slide>
+                <swiper-slide>
+                    <h2>Une Sirene Devant le Cuisinier</h2>
+                    <div class="imag">
+                    <img src="image/sirene.jpg" alt="sirene">
+                    </div>
+                    <p>Le cuisinier Bancho avec un sirene</p>
+                </swiper-slide>
+                <swiper-slide>
+                    <h2>Dave qui Dort</h2>
+                    <div class="imag">
+                    <img src="image/sleep.jpg" alt="sleep">
+                    </div>
+                    <p>Le personnage principal qui dort</p>
+                </swiper-slide>
+            </swiper-container>
+        </header>
+        <main>
+            <h3 id="description">Description Steam: DAVE THE DIVER is a casual, singleplayer adventure RPG featuring deep-sea exploration and fishing during the day and sushi restaurant management at night. Join Dave and his quirky friends as they seek to uncover the secrets of the mysterious Blue Hole.</h2>
+            <div id="poisson">
+                <p>Clicker pour voir les differents type de poisson</p>
+                <img src="js/carousel/spear.png" alt="spear" id="squid" class="carousel">
+                <img src="js/carousel/tiger.png" alt="tiger" id="shark" class="carousel">
+                <img src="js/carousel/box.png" alt="box" id="jelly" class="carousel">
+            </div>
+        </main>
+        <footer>
+            <h2>CREATEUR</h2>
+            <div>
+                <img src="image/nexon.png" alt="nexon" class="createur">
+                <img src="image/mintrocket.jpg" alt="mintrocket" class="createur">
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</html>

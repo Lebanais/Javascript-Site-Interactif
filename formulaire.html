@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="css/formulaire.css">
+</head>
+<body>
+    <nav>
+        <div class="icon" id="icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div id="titre">
+            <img src="image/titre.png" alt="titre">
+        </div>
+        <ul class="menu" id="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="formulaire.html">Formulaire</a></li>
+            <li><h2 id="mode">Dark Mode</h2></li>
+        </ul>
+    </nav>
+    <header>
+            <h1>Formulaire d'avis sur le Jeu: Dave The Diver</h1>
+    </header>
+    <main>
+        <div id="working">
+            <h2 id="nom"></h2>
+            <p id="texte"></p>
+        </div>
+        <form>
+            <label for="pseudo">Pseudonyme</label>
+            <input type="text" value="" id="pseudo">
+            <fieldset>
+                <legend>Note</legend>
+                <label for="un">1</label>
+                <input type="radio" name="note" value="un">
+                <label for="deux">2</label>
+                <input type="radio" name="note" value="deux">
+                <label for="trois">3</label>
+                <input type="radio" name="note" value="trois">
+                <label for="quatre">4</label>
+                <input type="radio" name="note" value="quatre">
+                <label for="cinq">5</label>
+                <input type="radio" name="note" value="cinq">
+            </fieldset>
+            <div id="zone">
+                <label for="pseudo">Commentaire</label>
+                <input type="text" value="" id="commentaire">
+                <input type="reset">
+                <input type="submit" id="resultat">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h2>CREATEUR</h2>
+            <div>
+                <img src="image/nexon.png" alt="nexon" class="createur">
+                <img src="image/mintrocket.jpg" alt="mintrocket" class="createur">
+            </div>
+    </footer>
+</body>
+<script src="js/formulaire.js"></script>
+</html>
